@@ -1,0 +1,16 @@
+a {
+    color: #761f00;
+    text-decoration: none;
+    text-shadow: 2px 2px #fdcd88;
+}
+
+p {
+    font-size: 1.0em;
+    text-align: left;
+}
+
+.imgBlock {
+    color: #fdcd88;
+    text-shadow: 2px 2px #000000;
+    text-align: center;
+}

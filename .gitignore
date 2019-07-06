@@ -1,0 +1,17 @@
+### Directory-based project format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+### IDEs and editors
+.idea
+
+### Plasma 5 .directory files
+*/.directory
+.directory
+
+### Custom scratch files
+*/.tmpscr_*.*
+
+### Jekyll site directory
+_site/
