@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="shortcut icon" href="../favicon.png">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-    </ul>
-</nav>
+<div id="bkgrnd">
+    <img class="imgCenter" src="images/debian_orange_blur.png" alt="debian logo orange blur"/>
+    <div id="bkgrndGradient">
+    </div>
+</div>
+<div id="pageWrap">
+    <div id="contentWrap">
+        <div id="subtitleBlock" class="orangeBlock">
+            <div class="txtBlock">
+                <h3>Christopher Mabon</h3>
+                <p><a id="gitLink" href="https://github.com/chrismabon">https://github.com/chrismabon</a></p>
+            </div>
+        </div>
 
-{{ content }}
+        {{ content }}
 
+    </div>
+
+    {% include nav.html %}
+
+</div>
+<div id="titleBlock">
+</div>
 </body>
 </html>

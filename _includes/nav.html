@@ -1,0 +1,64 @@
+<div id="nav">
+    <div id="navMenu">
+        <ul>
+
+            {% if page.title == 'Home' %}
+
+            <li class="visited"><a href="/"><img class="navIcon" src="images/home.svg">
+                <p class="navText">Home</p></a>
+            </li>
+
+            {% else %}
+
+            <li><a href="/"><img class="navIcon" src="images/home.svg">
+                <p class="navText">Home</p></a>
+            </li>
+
+            {% endif %}
+
+            {% if page.title == 'Projects' %}
+
+            <li class="visited"><a href="/projects.html"><img class="navIcon" src="images/projects.svg">
+                <p class="navText">Projects</p></a>
+            </li>
+
+            {% else %}
+
+            <li><a href="/projects.html"><img class="navIcon" src="images/projects.svg">
+                <p class="navText">Projects</p></a>
+            </li>
+
+            {% endif %}
+
+            {% if page.title == 'Code' %}
+
+            <li class="visited"><a href="/code.html"><img class="navIcon" src="images/code.svg">
+                <p class="navText">Code</p></a>
+            </li>
+
+            {% else %}
+
+            <li><a href="/code.html"><img class="navIcon" src="images/code.svg">
+                <p class="navText">Code</p></a>
+            </li>
+
+            {% endif %}
+
+            {% if page.title == 'About' %}
+
+            <li class="visited"><a href="/about.html"><img class="navIcon" src="images/about.svg">
+                <p class="navText">About</p></a>
+            </li>
+
+            {% else %}
+
+            <li><a href="/about.html"><img class="navIcon" src="images/about.svg">
+                <p class="navText">About</p></a>
+            </li>
+
+            {% endif %}
+
+
+        </ul>
+    </div>
+</div>

@@ -1,16 +1,340 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background: black;
+    padding: 0;
+    margin: 0;
+    /*position: fixed;*/
+    /*width: 100vh;*/
+    color: #ffffff;
+    overflow: auto;
+    /*height: 100%;*/
+}
+
+h1 {
+    margin: 5px;
+}
+
+h3 {
+    margin: 0;
+    display: inline;
+    overflow: hidden;
+}
+
 a {
-    color: #761f00;
     text-decoration: none;
-    text-shadow: 2px 2px #fdcd88;
+    text-underline: none;
+    color: #fdcd88;
 }
 
 p {
     font-size: 1.0em;
+    /*text-align: left;*/
+    margin: 0;
+}
+
+ul {
+    margin: 20px;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+}
+
+#pageWrap {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+#bkgrnd {
+    /*position: fixed;*/
+}
+
+#bkgrndGradient {
+    background-image: radial-gradient(circle, rgba(253, 205, 136, 0) 0%, rgba(0, 0, 0, 0.9) 80%);
+    width: 100%;
+    min-width: 800px;
+    height: 100%;
+    min-height: 1000px;
+    margin: 0;
+    position: fixed;
+}
+
+#contentWrap {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#titleBlock {
+    background-color: rgba(80, 80, 80, 0.25);
+    /*padding: 20px;*/
+    position: fixed;
+    width: 10%;
+    height: 1500px;
+    /*margin: 0 15% 0 0;*/
+    top: 0;
+    right: 0;
+    overflow: auto;
+    /*z-index: 10;*/
+    visibility: hidden;
+}
+
+#navMenu {
+    width: 110px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*background-attachment: fixed;*/
+    position: relative;
+    left: 0;
+    top: 80px;
+}
+
+#nav {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /*background-attachment: fixed;*/
+    position: fixed;
+    left: 0;
+    background-color: rgba(80, 80, 80, 0.25);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#nav li {
+    display: block;
+    margin: 0;
+    height: 15%;
+    overflow: hidden;
+}
+
+#nav li:hover {
+    background-color: rgba(151, 64, 0, 0.4);
+}
+
+#nav li a {
+    text-decoration: none;
+    /*text-shadow: 2px 2px #5b1b00;*/
+    display: block;
+    overflow: hidden;
+    /*background-color: rgba(151, 64, 0, 0.6);*/
+    color: #fdcd88;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#nav li a:link {
+    color: #fdcd88;
+}
+
+#nav li a:hover {
+    /*background-color: rgba(61, 0, 128, 0.65);*/
+    /*color: rgba(151, 64, 0, 1.0);*/
+}
+
+#squares {
+    /*width: 80%;*/
+
+    /*height: 100%;*/
+    padding: 0;
+    /*margin: 40px;*/
+    top: 80px;
+    left: 150px;
+    position: fixed;
+    display: grid;
+}
+
+#subtitleBlock {
+    /*min-width: 380px;*/
+    width: 100%;
+    height: 80px;
+    right: 0;
+    left: 110px;
+}
+
+#pageTitle {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    color: #fdcd88;
+    text-align: left;
+    /*margin: 10px;*/
+    display: inline;
+    overflow: hidden;
+}
+
+#pageTitle p {
+    display: inline;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+#face {
+    grid-row: 1 / span 3;
+    grid-column: 1;
+}
+
+#facePic {
+    width: 450px;
+    height: 450px;
+    margin: 100px 0 0 0;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#gitLink {
+    font-size: 20px;
+}
+
+#bodyWrap {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*height: 100%;*/
+    overflow-x: auto;
+    overflow-y: auto;
+    display: grid;
+}
+
+.intro {
+    width: 70%;
+    min-width: 400px;
+    height: 60%;
+    min-height: 400px;
+    grid-row: 2 / span 4;
+    grid-column: 2;
+    /*text-align: left;*/
+    display: grid;
+}
+
+.txtBlock, .txtBlock p {
+    color: #fdcd88;
+    font-size: 30px;
+    margin: 0;
+}
+
+.txtBlock {
+    margin: 0 0 0 5px;
+    width: 540px;
     text-align: left;
 }
 
-.imgBlock {
-    color: #fdcd88;
-    text-shadow: 2px 2px #000000;
+.homeText {
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px;
+    text-shadow: 1px 1px rgb(77, 10, 0);
+}
+
+.imgCenter {
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    min-height: 1000px;
+    position: fixed;
+}
+
+.orangeBlock {
+    background-image: radial-gradient(circle, rgba(151, 64, 0, 0.4) 10%, rgba(151, 64, 0, 0.4) 50%);
+    padding: 0 5px 0 0;
+    position: fixed;
+}
+
+
+.navText {
     text-align: center;
+    font-size: 24px;
+}
+
+.navIcon {
+    width: 48px;
+    height: 48px;
+}
+
+.visited {
+    background-color: rgba(151, 24, 0, 0.4);
+}
+
+.greyBlock {
+    background-color: rgba(80, 80, 80, 0.6);
+    padding: 10px;
+    margin: 37px 0 20px 0;
+    width: 80%;
+    height: 60%;
+    min-height: 90%;
+}
+
+
+.welcome {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    font-size: 28px;
+}
+
+.about {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.projects {
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+}
+
+.code {
+    grid-row: 2;
+    grid-column: 2;
+    text-align: right;
+}
+
+.welcome, .about, .projects, .code {
+    background-image: radial-gradient(circle, rgba(151, 64, 0, 0.4) 10%, rgba(151, 64, 0, 0.4) 50%);
+    margin: 10px;
+    padding: 5px;
+    overflow: visible;
+}
+
+.txtProjects, .txtCode, .txtWelcome, .txtAbout {
+    padding: 0;
+    margin: 0;
+}
+
+.txtProjects {
+    text-align: left;
+}
+
+.txtCode {
+    text-align: right;
+}
+
+.txtWelcome, .txtAbout {
+    text-align: center;
+}
+
+.txtWelcome {
+    font-size: 22px;
+}
+
+.aboutSect {
+    grid-row: 1;
+    grid-column: 2;
 }
