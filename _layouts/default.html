@@ -8,10 +8,9 @@
 </head>
 <body>
 <div id="pageWrap">
-    <div id="bkgrnd">
-        <img class="imgCenter" src="images/debian_orange_blur.png" alt="debian logo orange blur"/>
-        <div id="bkgrndGradient">
-        </div>
+
+    <!--        <img class="imgCenter" src="images/debian_orange_blur.png" alt="debian logo orange blur"/>-->
+    <div id="bkgrndGradient">
     </div>
     <div id="contentWrap">
         <div id="subtitleBlock" class="orangeBlock">
@@ -23,12 +22,10 @@
 
         {{ content }}
 
+
+        {% include nav.html %}
+
     </div>
-
-    {% include nav.html %}
-
-</div>
-<div id="titleBlock">
 </div>
 </body>
 </html>
