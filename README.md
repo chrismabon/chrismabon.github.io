@@ -10,6 +10,4 @@
 
 ---
 
-This project is licensed under the [GNU GPL v2](LICENSE)
-
 Copyright © 2019 Chris Mabon

@@ -99,7 +99,7 @@ li {
     background-color: rgba(151, 64, 0, 0.4);
     position: relative;
     left: 0;
-    top: 80px;
+    top: 100px;
 }
 
 #nav {
@@ -155,15 +155,16 @@ li {
 #squares {
     padding: 0;
     /*margin: 40px;*/
-    top: 80px;
+    top: 120px;
     left: 150px;
     position: fixed;
-    display: grid;
+    /*display: grid;*/
+    height: 100%;
 }
 
 #subtitleBlock {
     width: 100%;
-    height: 80px;
+    /*height: 80px;*/
     right: 0;
     left: 110px;
 }
@@ -224,9 +225,9 @@ li {
 .intro {
     width: 70%;
     min-width: 400px;
-    height: 300px;
-    grid-row: 2 / span 4;
-    grid-column: 2;
+    /*height: 300px;*/
+    /*grid-row: 2 / span 4;*/
+    /*grid-column: 2;*/
     display: grid;
 }
 
@@ -237,17 +238,21 @@ li {
 }
 
 .txtBlock {
-    margin: 0 0 0 5px;
-    width: 540px;
+    padding: 10px;
+    margin: 0;
+    height: 80px;
     text-align: left;
     color: #fff;
 }
 
 .homeText {
     color: #ffffff;
-    font-size: 18px;
-    margin: 20px 20px 0 20px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
     text-shadow: 1px 1px rgb(77, 10, 0);
+    text-align: left;
+    height: 100%;
 }
 
 .imgCenter {
@@ -282,10 +287,11 @@ li {
 .greyBlock {
     background-color: rgba(80, 80, 80, 0.6);
     padding: 20px;
-    margin: 37px 5px 5px 5px;
+    margin: 0;
     width: 730px;
-    height: 100%;
+    /*height: 100%;*/
     /*min-height: 400px;*/
+    display: grid;
 }
 
 
@@ -317,8 +323,8 @@ li {
 .about, .projects, .code, .aboutBlock {
     background-image: radial-gradient(circle, rgba(151, 64, 0, 0.4) 10%, rgba(151, 64, 0, 0.4) 50%);
     margin: 5px;
-    /*padding: 10px;*/
-    overflow: visible;
+    padding: 20px;
+    /*overflow: visible;*/
 }
 
 .txtProjects, .txtCode, .txtWelcome, .txtAbout {
@@ -359,8 +365,8 @@ li {
 }
 
 .aboutTitle {
-    margin: 5px;
-    padding: 5px;
+    margin: 0;
+    padding: 0;
     /*height: 30px;*/
     color: #ffffff;
     font-size: 34px;
@@ -372,21 +378,18 @@ li {
 
 .aboutBlock {
     background-image: radial-gradient(circle, rgba(151, 64, 0, 0.4) 10%, rgba(151, 64, 0, 0.4) 50%);
-    padding: 5px;
+    padding: 0;
+    margin: 0;
     overflow: visible;
     text-align: center;
-    height: 390px;
+    /*height: 390px;*/
+    grid-row: 2;
+    grid-column: 1;
 }
 
 .aboutText {
-    margin: 10px;
-    padding: 10px;
-}
-
-.aboutGreyBlock {
-    /*width: 360px;*/
-    height: 485px;
-    display: grid;
+    margin: 0;
+    padding: 20px;
 }
 
 .invis {
