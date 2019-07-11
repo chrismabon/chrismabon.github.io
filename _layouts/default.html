@@ -21,18 +21,26 @@
             <li>
                 <a class="buttons github" href="{{ site.github.owner_url }}"> GitHub Profile </a>
             </li>
+            {% if page.title != 'Home' %}
             <li>
                 <a class="buttons home" href="/">     Home    </a>
             </li>
+            {% endif %}
+            {% if page.title != 'Projects' %}
             <li>
                 <a class="buttons projects" href="/projects">    Projects   </a>
             </li>
+            {% endif %}
+            {% if page.title != 'Code' %}
             <li>
                 <a class="buttons code" href="/code">     Code    </a>
             </li>
+            {% endif %}
+            {% if page.title != 'About Me' %}
             <li>
                 <a class="buttons about" href="/about">     About    </a>
             </li>
+            {% endif %}
         </ul>
     </header>
 

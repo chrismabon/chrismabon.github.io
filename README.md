@@ -1,4 +1,4 @@
-# Portfolio for Chris Mabon
+# Full Stack Developer Portfolio
 
 #### [Home](https://chrismabon.github.io/)
 
