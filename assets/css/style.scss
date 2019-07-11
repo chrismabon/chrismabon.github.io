@@ -1,0 +1,50 @@
+---
+---
+
+
+@import "{{ site.theme }}";
+
+
+a.home {
+  background: url(../images/home_small.png) no-repeat;
+}
+
+a.projects {
+  background: url(../images/projects_small.png) no-repeat;
+}
+
+a.code {
+  background: url(../images/code_small.png) no-repeat;
+}
+
+a.about {
+  background: url(../images/about_small.png) no-repeat;
+}
+
+a.buttons {
+  font-size: 14px;
+  text-shadow: rgba(23, 23, 23, 0.4) 0 1px 0;
+}
+
+a.github, a.home, a.projects, a.code, a.about {
+  margin-right: 0;
+}
+
+header {
+  //padding: 34px 25px 22px 50px;
+  padding: 25px 25px 25px 25px;
+}
+
+.twogrid {
+  display: grid;
+}
+
+.gridleft {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.gridright {
+  grid-row: 1;
+  grid-column: 2;
+}
