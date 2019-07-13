@@ -1,6 +1,6 @@
 ---
 title: Code
-description: Snippets of this author's well-implemented code
+description: Snippets of some well-implemented code
 ---
 
 <br>

@@ -19,19 +19,18 @@ description: Portfolio for full stack developer
 <h2>Welcome to my portfolio, courtesy of GitHub Pages</h2>
 <div class="gridwrap">
     <div class="gridleft">
-    <p class="blocktext"><p class="redlist">Code</p>Snippets of 
+    <p class="blocktext"><p class="redlist"><a href="code.md">Code</a></p>Snippets of 
         well-implemented code that highlight my abilities as 
         a developer.
     </p>
-    <p class="blocktext"><p class="redlist">About</p>Contact 
-        information and a bit more about the author.
+    <p class="blocktext"><p class="redlist"><a href="about.md">About</a></p>Contact 
+        information and a bit more about myself.
     </p>
     </div>
     <div class="gridright">
-        <p class="blocktext"><p class="redlist">Projects</p>Screenshots, diagrams, and 
+        <p class="blocktext"><p class="redlist"><a href="projects.md">Projects</a></p>Screenshots, diagrams, and 
             documentation for some of the various apps and websites I have 
             worked on.
         </p> 
-        
     </div>
 </div>

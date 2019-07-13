@@ -92,6 +92,10 @@ blockquote {
   margin-top: 40px;
 }
 
+section {
+  width: 700px;
+}
+
 .gridwrap {
   display: grid;
 }
@@ -134,3 +138,10 @@ blockquote {
   margin: 0;
 }
 
+.projectgridleft {
+  grid-column: 1;
+}
+
+.projectgridright {
+  grid-column: 2;
+}

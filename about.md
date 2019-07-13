@@ -1,6 +1,6 @@
 ---
 title: About Me
-description: Some tidbits about the author
+description: Tidbits about the author
 ---
 
 <br>
@@ -54,24 +54,7 @@ description: Some tidbits about the author
             <a href="https://github.com/chrismabon/PhasePharmer">🌙PhasePharmer</a> 
             to assist other players by aggregating related data about 
             the game based on input moon phase and selected item.
-            Calculating the moon phase to the minute requires some 
-            trigonometry! For example, to find the "local hour angle", 
-            one takes the arctangent of:</p> 
-        <code>
-            <ul>
-                <li>sin A ➗ (cos A sin φ + tan h cos φ)</li>
-            </ul>
-        </code>
-            <p class="blocktext">where:</p>
-        <code>
-            <ul>
-                <li>A ⇒ azimuth from the south</li>
-                <li>φ ⇒ observer's latitude</li>
-                <li>h ⇒ altitude</li>
-            </ul>
-        </code>
-        <p class="blocktext">Etc.</p>
-    </div>
+            
 </div>
 
 
