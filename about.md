@@ -54,7 +54,9 @@ description: Tidbits about the author
             <a href="https://github.com/chrismabon/PhasePharmer">🌙PhasePharmer</a> 
             to assist other players by aggregating related data about 
             the game based on input moon phase and selected item.
-            
+            </p>
+        </div>
+    </div>
 </div>
 
 
