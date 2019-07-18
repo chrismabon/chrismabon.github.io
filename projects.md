@@ -42,6 +42,7 @@ description: Programming for college and personal use
         <p class="blocktext">Etc.</p>
     </div>
     <div class="gridright">
+        <img class="rounded" src="assets/images/phase-pharmer3.png" alt="Phase Pharmer">
         <img class="rounded" src="assets/images/phase-pharmer2.png" alt="Phase Pharmer">
         <img class="rounded" src="assets/images/phase-pharmer1.png" alt="Phase Pharmer">
     </div>

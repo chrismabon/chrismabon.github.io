@@ -55,7 +55,6 @@ description: Tidbits about the author
             to assist other players by aggregating related data about 
             the game based on input moon phase and selected item.
             </p>
-        </div>
     </div>
 </div>
 
