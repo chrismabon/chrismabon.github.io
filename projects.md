@@ -28,7 +28,9 @@ description: Programming for college and personal use
             one takes the arctangent of:</p> 
         <code>
             <ul>
-                <li>sin A ➗ (cos A sin φ + tan h cos φ)</li>
+                <li>sin(A)</li>
+                <li>➗</li>
+                <li>cos(A) sin(φ) + tan(h) cos(φ)</li>
             </ul>
         </code>
             <p class="blocktext">where:</p>
@@ -64,29 +66,38 @@ description: Programming for college and personal use
             mystical feel.</p>
     </div>
     <div class="gridcenter">
-        <img class="rounded" src="assets/images/dragon2.png" alt="Phase Pharmer">
+        <img class="rounded" src="assets/images/dragon2.png" alt="Dragon Moon Clan">
         <p class="blocktext">A useful trick using JavaScript is to 
             force the navigation area to "stick" to the top of the page
             after scrolling down far enough.
             As one can see from the screenshots, the 
             navigation bar seems to not scroll down past a certain point, 
             keeping navigation items in visual range at all times.</p>
-        <img class="rounded" src="assets/images/dragon1.png" alt="Phase Pharmer">
         <p class="blocktext">This makes the site more accessible to
             mobile users who lack the large screen experience of the 
             desktop.</p>
+        <img class="rounded" src="assets/images/dragon1.png" alt="Dragon Moon Clan">
     </div>
 </div>
 <h2>Encryption Machine</h2>
 <div class="gridwrap">
     <div class="gridleft">
         <p class="redlist">Java</p> 
-        <p class="blocktext"></p>
-        <p class="blocktext"></p>
-        <p class="blocktext"></p>
     </div>
     <div class="gridright">
     </div>
     <div class="gridcenter">
+        <p class="blocktext">One of the group projects required for my
+            Computer Science II course back in college was a program
+            that could utilize multiple types of ciphers to encrypt
+            and decrypt text and files.</p>
+        <p class="blocktext">My contributions to the project were the
+            GUI and the transpositional cipher. The cipher itself 
+            randomly picks a swap between two letter in the text and 
+            saves that information in a text key. The key is then used
+            to decrypt the message or file.</p>
+        <p class="blocktext">Being my first pass at GUI design, I decided to keep it 
+            neat and simple, with greyscale tones and ample contrast:</p>
+        <img class="rounded" src="assets/images/encrypt.png" alt="Encryption Machine">
     </div>
 </div>
