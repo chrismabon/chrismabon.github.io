@@ -87,17 +87,16 @@ description: Programming for college and personal use
     <div class="gridright">
     </div>
     <div class="gridcenter">
-        <p class="blocktext">One of the group projects required for my
-            Computer Science II course back in college was a program
+        <p class="blocktext">One of my past projects was a program
             that could utilize multiple types of ciphers to encrypt
             and decrypt text and files.</p>
-        <p class="blocktext">My contributions to the project were the
-            GUI and the transpositional cipher. The cipher itself 
+        <p class="blocktext">The transpositional cipher 
             randomly picks a swap between two letter in the text and 
             saves that information in a text key. The key is then used
             to decrypt the message or file.</p>
-        <p class="blocktext">Being my first pass at GUI design, I decided to keep it 
-            neat and simple, with greyscale tones and ample contrast:</p>
+        <p class="blocktext">There are also two other ciphers available,
+            both of which are substitution ciphers and which operate 
+            similarly to one another within the program.</p>
         <img class="rounded" src="assets/images/encrypt.png" alt="Encryption Machine">
     </div>
 </div>
