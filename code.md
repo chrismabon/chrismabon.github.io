@@ -10,6 +10,7 @@ description: Snippets of logic
 >> -Linus Torvalds
 
 ---
+---
 
 <div class="gridwrap">
     <div class="gridright"> 
@@ -24,55 +25,55 @@ description: Snippets of logic
 <li>First we adjust the month and year for January and February such that they
 occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
-<code> 
-    
-                // Gregorian time/date values as input
-                function julianDay(year, mon, day, hour, min) {
-                  
-                  // adjust month numbers from 0-11 to 1-12
-                  mon += 1; 
-                  
-                  // Jan and Feb are months 13 and 14, respectively, 
-                  // from the previous year
-                  if (mon < 3) { 
-                    year -= 1;   
-                    mon += 12;
-                  }
-                  
-</code>                          
+
+```
+// Gregorian time/date values as input
+function julianDay(year, mon, day, hour, min) {
+
+  // adjust month numbers from 0-11 to 1-12
+  mon += 1; 
+
+  // Jan and Feb are months 13 and 14, respectively, 
+  // from the previous year
+  if (mon < 3) { 
+    year -= 1;   
+    mon += 12;
+  }            
+```     
+
 <ul>
   <li>Next we convert the hours and minutes to fractional days for better accuracy,
     and add them to the current day value</li>
 </ul>
-<code>                 
-                
-                  // minutes expressed as fractional days
-                  let minToDay = min / 1440; 
-                  
-                  // hours expressed " " 
-                  let hourToDay = hour / 24; 
-                  
-                  // adjust day to include hours and minutes
-                  let adjDay = day + hourToDay + minToDay; 
 
-</code> 
+```                               
+// minutes expressed as fractional days
+let minToDay = min / 1440; 
+
+// hours expressed " " 
+let hourToDay = hour / 24; 
+
+// adjust day to include hours and minutes
+let adjDay = day + hourToDay + minToDay; 
+```
+
 <ul>
 <li>Lastly we perform some seemingly-arbitrary calculations involving floor 
   division, including the adjusted day, and return that value as the number of
   Julian days since the year -4712 (or 2693 BCE)</li>
 </ul>
-<code> 
-                  
-                  // find intermediate values
-                  let a = Math.floor(year / 100);
-                  let b = 2 - a + Math.floor(a / 4);
-                  
-                  // calculate Julian Day from previous values
-                  let JD = Math.floor(365.25 * (year + 4716)) 
-                              + Math.floor(30.6001 * (month + 1)) 
-                              + adjDay + b - 1524.5; 
-                  return JD;               
 
-<code> 
+```
+// find intermediate values
+let a = Math.floor(year / 100);
+let b = 2 - a + Math.floor(a / 4);
+
+// calculate Julian Day from previous values
+let JD = Math.floor(365.25 * (year + 4716)) 
+          + Math.floor(30.6001 * (month + 1)) 
+          + adjDay + b - 1524.5; 
+return JD;           
+```
+
    </div>
 </div>
