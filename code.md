@@ -26,6 +26,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
 
 <code>
+<br>    
     // Gregorian time/date values as input<br>
     function julianDay(year, mon, day, hour, min) {<br>
 <br>
@@ -46,6 +47,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>
 
 <code>                           
+<br>    
     // minutes expressed as fractional days<br>
     let minToDay = min / 1440;<br> 
 <br>
@@ -63,6 +65,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>
 
 <code>
+<br>    
     // find intermediate values<br>
     let a = Math.floor(year / 100);<br>
     let b = 2 - a + Math.floor(a / 4);<br>
