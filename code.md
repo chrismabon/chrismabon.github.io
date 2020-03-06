@@ -23,7 +23,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 <br>
         
 <code><br>
-// Gregorian time/date values as input<br>
+<p>// Gregorian time/date values as input<br>
 function julianDay(year, mon, day, hour, min) {<br>
    // adjust month numbers from 0-11 to 1-12<br>
    mon += 1;<br>
@@ -32,7 +32,7 @@ function julianDay(year, mon, day, hour, min) {<br>
    if (mon < 3) {<br>
      year -= 1;<br>
      mon += 12;<br>
-   }<br>
+   }</p><br>
 </code>
 
 <br>            
@@ -43,12 +43,12 @@ function julianDay(year, mon, day, hour, min) {<br>
 <br>    
     
 <code><br>
-    // minutes expressed as fractional days<br>
+    <p>// minutes expressed as fractional days<br>
     let minToDay = min / 1440;<br>
     // hours expressed " "<br>
     let hourToDay = hour / 24;<br>
     // adjust day to include hours and minutes<br>
-    let adjDay = day + hourToDay + minToDay;<br>
+    let adjDay = day + hourToDay + minToDay;</p><br>
 </code>
 
 <br>
@@ -60,14 +60,14 @@ function julianDay(year, mon, day, hour, min) {<br>
 <br>  
 
 <code><br>
-    // find intermediate values<br>
+    <p>// find intermediate values<br>
     let a = Math.floor(year / 100);<br>
     let b = 2 - a + Math.floor(a / 4);<br>
     // calculate Julian Day from previous values<br>
     let JD = Math.floor(365.25 * (year + 4716))<br>
               + Math.floor(30.6001 * (month + 1))<br>
               + adjDay + b - 1524.5;<br>
-    return JD;<br>
+    return JD;</p><br>
 </code>
 
    </div>
