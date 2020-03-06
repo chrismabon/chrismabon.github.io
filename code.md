@@ -11,14 +11,13 @@ description: Snippets of logic
 
 ---
 
-<h2>🌙Phase Pharmer</h2>
 <div class="gridwrap">
     <div class="gridright"> 
-      <p class="redlist">Calculating the Julian day</p>        
-      <p class="blocktext">The commonly-used Gregorian calendar is woefully-inadequate for use in
+        <h2>Calculating the Julian Day</h2>     
+        <p class="blocktext">The commonly-used Gregorian calendar is woefully-inadequate for use in
         astronomy and developing software: Try calculating the difference between two arbitrary times/dates 
         in the Gregorian calendar. It isn't a simple subtraction operation, now is it?</p>        
-      <p class="blocktext">We require a linear time scale, one that can be expressed as a large (but simple) 
+        <p class="blocktext">We require a linear time scale, one that can be expressed as a large (but simple) 
         number rather than an aggregate of the year/month/day/hours/minutes/seconds. The Julian calendar has
         such properties, but we must first find the Julian Day (JD) using the Gregorian date and some math...</p>
 <ul>
