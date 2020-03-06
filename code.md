@@ -3,14 +3,9 @@ title: Code
 description: Snippets of logic
 ---
 
-<br>
-
 >> "Talk is cheap. Show me the code."
 >>
 >> -Linus Torvalds
-
----
----
 
 <div class="gridwrap">
     <div class="gridright"> 
@@ -30,10 +25,8 @@ occur in the previous year as hypothetical months 13 and 14</li>
 ```javascript
 // Gregorian time/date values as input
 function julianDay(year, mon, day, hour, min) {
-
    // adjust month numbers from 0-11 to 1-12
    mon += 1;
-
    // Jan and Feb are months 13 and 14, respectively,
    // from the previous year
    if (mon < 3) {
@@ -52,10 +45,8 @@ function julianDay(year, mon, day, hour, min) {
 ```javascript
     // minutes expressed as fractional days
     let minToDay = min / 1440;
-
     // hours expressed " "
     let hourToDay = hour / 24;
-
     // adjust day to include hours and minutes
     let adjDay = day + hourToDay + minToDay;
 ```
@@ -72,7 +63,6 @@ function julianDay(year, mon, day, hour, min) {
     // find intermediate values
     let a = Math.floor(year / 100);
     let b = 2 - a + Math.floor(a / 4);
-
     // calculate Julian Day from previous values
     let JD = Math.floor(365.25 * (year + 4716))
               + Math.floor(30.6001 * (month + 1))
