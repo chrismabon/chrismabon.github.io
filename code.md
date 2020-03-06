@@ -22,17 +22,17 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
 <br>
         
-<code>
-// Gregorian time/date values as input
-function julianDay(year, mon, day, hour, min) {
-   // adjust month numbers from 0-11 to 1-12
-   mon += 1;
-   // Jan and Feb are months 13 and 14, respectively,
-   // from the previous year
-   if (mon < 3) {
-     year -= 1; 
-     mon += 12;
-   }
+<code><br>
+// Gregorian time/date values as input<br>
+function julianDay(year, mon, day, hour, min) {<br>
+   // adjust month numbers from 0-11 to 1-12<br>
+   mon += 1;<br>
+   // Jan and Feb are months 13 and 14, respectively,<br>
+   // from the previous year<br>
+   if (mon < 3) {<br>
+     year -= 1;<br>
+     mon += 12;<br>
+   }<br>
 </code>
 
 <br>            
@@ -42,13 +42,13 @@ function julianDay(year, mon, day, hour, min) {
 </ul>              
 <br>    
     
-<code>
-    // minutes expressed as fractional days
-    let minToDay = min / 1440;
-    // hours expressed " "
-    let hourToDay = hour / 24;
-    // adjust day to include hours and minutes
-    let adjDay = day + hourToDay + minToDay;
+<code><br>
+    // minutes expressed as fractional days<br>
+    let minToDay = min / 1440;<br>
+    // hours expressed " "<br>
+    let hourToDay = hour / 24;<br>
+    // adjust day to include hours and minutes<br>
+    let adjDay = day + hourToDay + minToDay;<br>
 </code>
 
 <br>
@@ -59,15 +59,15 @@ function julianDay(year, mon, day, hour, min) {
 </ul>
 <br>  
 
-<code>
+<code><br>
     // find intermediate values<br>
-    let a = Math.floor(year / 100);
-    let b = 2 - a + Math.floor(a / 4);
-    // calculate Julian Day from previous values
-    let JD = Math.floor(365.25 * (year + 4716))
-              + Math.floor(30.6001 * (month + 1))
-              + adjDay + b - 1524.5;
-    return JD;
+    let a = Math.floor(year / 100);<br>
+    let b = 2 - a + Math.floor(a / 4);<br>
+    // calculate Julian Day from previous values<br>
+    let JD = Math.floor(365.25 * (year + 4716))<br>
+              + Math.floor(30.6001 * (month + 1))<br>
+              + adjDay + b - 1524.5;<br>
+    return JD;<br>
 </code>
 
    </div>
