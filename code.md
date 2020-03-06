@@ -24,10 +24,8 @@ description: Snippets of logic
 <li>First we adjust the month and year for January and February such that they
 occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
-
-<code>
-<br>    
-    
+<br>
+        
 ```javascript
 // Gregorian time/date values as input
 function julianDay(year, mon, day, hour, min) {
@@ -44,14 +42,10 @@ function julianDay(year, mon, day, hour, min) {
 ```
 
 <br>            
-</code>
-
 <ul>
   <li>Next we convert the hours and minutes to fractional days for better accuracy,
     and add them to the current day value</li>
-</ul>
-
-<code>                           
+</ul>              
 <br>    
     
 ```javascript
@@ -66,15 +60,11 @@ function julianDay(year, mon, day, hour, min) {
 ```
     
 <br>
-</code>
-
 <ul>
 <li>Lastly we perform some seemingly-arbitrary calculations involving floor 
   division, including the adjusted day, and return that value as the number of
   Julian days since the year -4712 (or 2693 BCE)</li>
 </ul>
-
-<code>
 <br>    
     
 ```javascript
@@ -88,9 +78,6 @@ function julianDay(year, mon, day, hour, min) {
               + adjDay + b - 1524.5;
     return JD;
 ```
-
-<br>           
-</code>
 
    </div>
 </div>
