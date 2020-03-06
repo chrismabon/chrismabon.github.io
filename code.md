@@ -14,7 +14,7 @@ description: Snippets of logic
 <div class="gridwrap">
     <div class="gridright"> 
         <h2>Calculating the Julian Day</h2>     
-        <p class="blocktext">The commonly-used Gregorian calendar is woefully-inadequate for use in
+        <p class="blocktext">The common Gregorian calendar is woefully-inadequate for use in
         astronomy and developing software: Try calculating the difference between two arbitrary times/dates 
         in the Gregorian calendar. It isn't a simple subtraction operation, now is it?</p>        
         <p class="blocktext">We require a linear time scale, one that can be expressed as a large (but simple) 
