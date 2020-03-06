@@ -10,6 +10,7 @@ description: Snippets of logic
 >> -Linus Torvalds
 
 ---
+---
 
 <div class="gridwrap">
     <div class="gridright"> 
