@@ -32,7 +32,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 // Gregorian time/date values as input
 function julianDay(year, mon, day, hour, min) {
 
-   // adjust month numbers from 0-11 to 1-12<br>
+   // adjust month numbers from 0-11 to 1-12
    mon += 1;
 
    // Jan and Feb are months 13 and 14, respectively,
