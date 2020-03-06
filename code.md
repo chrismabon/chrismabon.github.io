@@ -22,7 +22,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
 <br>
         
-```javascript
+`javascript
 // Gregorian time/date values as input
 function julianDay(year, mon, day, hour, min) {
    // adjust month numbers from 0-11 to 1-12
@@ -33,7 +33,7 @@ function julianDay(year, mon, day, hour, min) {
      year -= 1; 
      mon += 12;
    }
-```
+`
 
 <br>            
 <ul>
@@ -42,14 +42,14 @@ function julianDay(year, mon, day, hour, min) {
 </ul>              
 <br>    
     
-```javascript
+`
     // minutes expressed as fractional days
     let minToDay = min / 1440;
     // hours expressed " "
     let hourToDay = hour / 24;
     // adjust day to include hours and minutes
     let adjDay = day + hourToDay + minToDay;
-```
+`
     
 <br>
 <ul>
