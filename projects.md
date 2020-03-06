@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Programming for college and personal use
+description: Programming for studies and personal use
 ---
 
 <br>
@@ -15,7 +15,8 @@ description: Programming for college and personal use
 <div class="gridwrap">
     <div class="gridleft">
         <p class="redlist">JavaScript</p> 
-        <p class="blocktext">What began as a simple spreadsheet, 🌙Phase Pharmer
+        <p class="blocktext">Beginning as a simple spreadsheet, 
+            <a href="https://github.com/chrismabon/PhasePharmer">🌙Phase Pharmer</a>
             is a web app that organizes and displays information about
             the mushroom farming skill in Project: Gorgon (an online fantasy 
             role-playing game). </p>
