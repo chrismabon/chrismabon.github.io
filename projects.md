@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Programming for studies and personal use
+description: Various activities of mine
 ---
 
 <br>
