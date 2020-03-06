@@ -3,9 +3,9 @@ title: Code
 description: Snippets of logic
 ---
 
->> "Talk is cheap. Show me the code."
->>
->> -Linus Torvalds
+> "Talk is cheap. Show me the code."
+>
+> -Linus Torvalds
 
 <div class="gridwrap">
     <div class="gridright"> 
@@ -22,7 +22,7 @@ occur in the previous year as hypothetical months 13 and 14</li>
 </ul>      
 <br>
         
-`javascript
+<code>
 // Gregorian time/date values as input
 function julianDay(year, mon, day, hour, min) {
    // adjust month numbers from 0-11 to 1-12
@@ -33,7 +33,7 @@ function julianDay(year, mon, day, hour, min) {
      year -= 1; 
      mon += 12;
    }
-`
+</code>
 
 <br>            
 <ul>
@@ -42,25 +42,25 @@ function julianDay(year, mon, day, hour, min) {
 </ul>              
 <br>    
     
-`
+<code>
     // minutes expressed as fractional days
     let minToDay = min / 1440;
     // hours expressed " "
     let hourToDay = hour / 24;
     // adjust day to include hours and minutes
     let adjDay = day + hourToDay + minToDay;
-`
-    
+</code>
+
 <br>
 <ul>
 <li>Lastly we perform some seemingly-arbitrary calculations involving floor 
   division, including the adjusted day, and return that value as the number of
   Julian days since the year -4712 (or 2693 BCE)</li>
 </ul>
-<br>    
-    
-```javascript
-    // find intermediate values
+<br>  
+
+<code>
+    // find intermediate values<br>
     let a = Math.floor(year / 100);
     let b = 2 - a + Math.floor(a / 4);
     // calculate Julian Day from previous values
@@ -68,7 +68,7 @@ function julianDay(year, mon, day, hour, min) {
               + Math.floor(30.6001 * (month + 1))
               + adjDay + b - 1524.5;
     return JD;
-```
+</code>
 
    </div>
 </div>
