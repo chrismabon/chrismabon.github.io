@@ -74,6 +74,7 @@ p {
 
 img {
   border: none;
+  max-width: none;
 }
 
 code {
@@ -93,20 +94,28 @@ blockquote {
 }
 
 section {
-  width: 700px;
+  max-width: 600px;
 }
 
+iframe body {
+  margin: 0;
+}
 .gridwrap {
   display: grid;
 }
 
-.gridleft, .gridright, .gridrightspan {
-  padding: 10px;
+.gridleft, .gridright, .gridcenter, .gridrightspan, .gridleftspan, .gridwrap, .rounded {
+  width: 100%;
+}
+
+.gridrightspan {
+  margin-left: 25px;
 }
 
 .gridleft {
   grid-row: 1;
   grid-column: 1;
+  min-width: 100px;
 }
 
 .gridrightspan {
@@ -117,6 +126,7 @@ section {
 .gridright {
   grid-row: 1;
   grid-column: 2;
+  min-width: 100px;
 }
 
 .gridcenter {
@@ -144,4 +154,21 @@ section {
 
 .projectgridright {
   grid-column: 2;
+}
+
+.txtcode {
+  font-size: 0.9em;
+}
+
+.wrapper {
+  //width: 1060px;
+}
+
+div.LI-profile-badge {
+  margin: 0 0 0 95px !important;
+  overflow: visible;
+}
+
+.img-space {
+  margin-top: 153px;
 }

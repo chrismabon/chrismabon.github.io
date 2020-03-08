@@ -42,7 +42,6 @@ description: Various activities of mine
                 <li>h ⇒ altitude</li>
             </ul>
         </code>
-        <p class="blocktext">Etc.</p>
     </div>
     <div class="gridright">
         <img class="rounded" src="assets/images/phase-pharmer3.png" alt="Phase Pharmer">
@@ -98,6 +97,5 @@ description: Various activities of mine
         <p class="blocktext">There are also two other ciphers available,
             both of which are substitution ciphers and which operate 
             similarly to one another within the program.</p>
-        <img class="rounded" src="assets/images/encrypt.png" alt="Encryption Machine">
     </div>
 </div>
