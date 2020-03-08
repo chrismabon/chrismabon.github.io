@@ -2,11 +2,11 @@
 
 #### [Home](https://chrismabon.github.io/)
 
-#### [About](https://chrismabon.github.io/about.html)
+#### [About](https://chrismabon.github.io/about)
 
-#### [Projects](https://chrismabon.github.io/projects.html)
+#### [Projects](https://chrismabon.github.io/projects)
 
-#### [Code](https://chrismabon.github.io/code.html)
+#### [Code](https://chrismabon.github.io/code)
 
 ---
 

@@ -1,11 +1,13 @@
 ---
 title: Code
-description: Snippets of logic
+description: 'Snippets of logic'
 ---
 
 > "Talk is cheap. Show me the code."
 >
 > -Linus Torvalds
+
+---
 
 <div class="gridwrap">
     <div class="gridright">

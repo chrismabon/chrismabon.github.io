@@ -1,13 +1,13 @@
 ---
 title: Projects
-description: Various activities of mine
+description: 'Various activities'
 ---
 
 <br>
 
->> "The package system was not designed to manage software. It was designed to facilitate collaboration."
->> 
->> -Ian Murdock
+> "The package system was not designed to manage software. It was designed to facilitate collaboration."
+> 
+> -Ian Murdock
 
 ---
 

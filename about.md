@@ -1,15 +1,15 @@
 ---
 title: About Me
-description: Tidbits about the author
+description: 'Info and background'
 ---
 
 <br>
 
->> "Within C++, there is a much smaller and cleaner language struggling to get out."
->>
->> "And no, that smaller and cleaner language is not Java or C#."
->>
->> -Bjarne Stroustrup
+> "Within C++, there is a much smaller and cleaner language struggling to get out..."
+>
+> "And no, that smaller and cleaner language is not Java or C#."
+>
+> -Bjarne Stroustrup
 
 ---
 

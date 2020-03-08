@@ -1,18 +1,18 @@
 ---
 title: Home
-description: Portfolio for full stack developer
+description: 'Full-stack development'
 ---
 
 <br>
 
->> "I'm personally convinced that computer science has a lot in common with physics. 
->> Both are about how the world works at a rather fundamental level. 
->> The difference, of course, is that while in physics you're supposed to figure out 
->> how the world is made up, in computer science you create the world. 
->> Within the confines of the computer, you're the creator. 
->> You get to ultimately control everything that happens..." 
->>
->> -Linus Torvalds
+> "I'm personally convinced that computer science has a lot in common with physics. 
+> Both are about how the world works at a rather fundamental level. 
+> The difference, of course, is that while in physics you're supposed to figure out 
+> how the world is made up, in computer science you create the world. 
+> Within the confines of the computer, you're the creator. 
+> You get to ultimately control everything that happens..." 
+>
+> -Linus Torvalds
 
 ---
 
@@ -21,12 +21,11 @@ description: Portfolio for full stack developer
 <h2>Welcome to my portfolio, courtesy of GitHub Pages</h2>
 <div class="gridwrap">
     <div class="gridleft">
-    <p class="blocktext"><p class="redlist"><a href="code.md">Code</a></p>Snippets of 
-        well-implemented code that highlight my abilities as 
-        a developer.
+    <p class="blocktext"><p class="redlist"><a href="code.md">Code</a></p>Sections of 
+        code highlighted from various projects of mine.
     </p>
     <p class="blocktext"><p class="redlist"><a href="about.md">About</a></p>Contact 
-        information and a bit more about myself.
+        information and a bit about myself.
     </p>
     </div>
     <div class="gridright">
