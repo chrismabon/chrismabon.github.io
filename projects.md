@@ -50,7 +50,7 @@ description: Various activities of mine
         <img class="rounded" src="assets/images/phase-pharmer1.png" alt="Phase Pharmer">
     </div>
     <div class="gridcenter">
-        <img class="rounded" src="assets/images/phase-pharmer4.gif" alt="Phase Pharmer">
+        <img class="rounded" src="assets/images/phase-pharmer5.gif" alt="Phase Pharmer">
     </div>
 </div>
 <h2>Guild Website</h2>
@@ -77,7 +77,7 @@ description: Various activities of mine
         <p class="blocktext">This makes the site more accessible to
             mobile users who lack the large screen experience of the 
             desktop.</p>
-        <img class="rounded" src="assets/images/dragon1.png" alt="Dragon Moon Clan">
+        <img class="rounded" src="assets/images/stickynav.gif" alt="Sticky navbar">
     </div>
 </div>
 <h2>Encryption Machine</h2>
