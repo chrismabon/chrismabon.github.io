@@ -15,3 +15,7 @@
 
 ### Jekyll site directory
 _site/
+
+### Ruby, bundle config
+/vendor/bundle/ruby/2.5.0/
+/.bundle/
