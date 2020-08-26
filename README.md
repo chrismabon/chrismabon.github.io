@@ -1,13 +1,7 @@
-# Full Stack Developer Portfolio
+# Sausage Javelins' Live Stream!
 
-#### [Home](https://chrismabon.github.io/)
-
-#### [About](https://chrismabon.github.io/about)
-
-#### [Projects](https://chrismabon.github.io/projects)
-
-#### [Code](https://chrismabon.github.io/code)
+Please see [http://chrismabon.github.io](http://chrismabon.github.io) for social media links 
 
 ---
 
-Copyright © 2020 Chris Mabon
+Copyright © 2020 Umbra Aeterna Labs

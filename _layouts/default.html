@@ -1,48 +1,59 @@
 <!doctype html>
 <html lang="{{ site.lang | default: 'en-US' }}">
+
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% seo %}
     <link rel="favicon" href="{{ 'favicon.ico' }}">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>Sausage Javelins' Live Stream</title>
 </head>
+
 <body>
 <div class="wrapper">
     <header>
         <h1 class="header">{{ page.title }}</h1>
         <p class="header">{{ page.description }}</p>
-        <ul>
+        {% if page.title != "Error 404" %}
+        <ul class="nav">
             <li>
-                <a class="github buttons" href="{{ site.github.owner_url }}"> GitHub Profile </a>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://www.twitch.tv/sausagejavelins"><img class="nav" src="assets/images/twitch-icon_sm.png" alt="twitch stream"><p class="btn nav">Twitch</p></a>
+                </div>
             </li>
-            {% if page.title != 'Home' %}
             <li>
-                <a class="home buttons" href="/">     Home    </a>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://www.youtube.com/channel/UCcWifo99N4_tTh49lcc48MA"><img class="nav" src="assets/images/youtube-icon_sm.png" alt="youtube channel"><p class="btn nav">YouTube</p></a>
+                </div>
             </li>
-            {% endif %}
-            {% if page.title != 'Projects' %}
             <li>
-                <a class="projects buttons" href="/projects">    Projects   </a>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://www.facebook.com/groups/sjstreams"><img class="nav" src="assets/images/facebook-icon_sm.png" alt="facebook group"><p class="btn nav">Facebook</p></a>
+                </div>
             </li>
-            {% endif %}
-            {% if page.title != 'Code' %}
             <li>
-                <a class="code buttons" href="/code">     Code    </a>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://imgur.com/user/SausageJavelins"><img class="nav" src="assets/images/imgur-icon_sm.png" alt="imgur profile"><p class="btn nav">Imgur</p></a>
+                </div>
             </li>
-            {% endif %}
-            {% if page.title != 'About Me' %}
             <li>
-                <a class="buttons about" href="/about">     About    </a>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://www.instagram.com/sausagejavelins/"><img class="nav" src="assets/images/instagram-icon_sm.png" alt="instagram feed"><p class="btn nav">Instagram</p></a>
+                </div>
             </li>
-            {% endif %}
+            <li>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://soundcloud.com/blindstep"><img class="nav" src="assets/images/soundcloud-icon_sm.png" alt="soundcloud profile"><p class="btn nav">Soundcloud</p></a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-entry gradient">
+                    <a class="nav" href="https://github.com/chrismabon"><img class="nav" src="assets/images/github-icon_sm.png" alt="github profile"><p class="btn nav">GitHub</p></a>
+                </div>
+            </li>
         </ul>
+        {% endif %}
     </header>
 
     <section>
@@ -51,16 +62,16 @@
 
     <footer>
         <p>
-            <small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme (modified)
+            <small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using theme Midnight (modified)
             </small>
         </p>
         <p>
-            <small>Copyright © 2020<br>Chris Mabon
+            <small>Copyright © 2020 Umbra Aeterna Labs
             </small>
         </p>
     </footer>
+
 </div>
-<!--[if !IE]>
-<script>fixScale(document);</script><![endif]-->
 </body>
+
 </html>
