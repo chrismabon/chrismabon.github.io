@@ -44,9 +44,10 @@ h2 {
   padding-top: 60px;
 }
 
-header {
+.header {
   //padding: 34px 25px 22px 50px;
-  padding: 25px 25px 25px 25px;
+  //padding: 25px 25px 25px 25px;
+  padding: 0;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   text-align: center;
@@ -94,7 +95,7 @@ blockquote {
 }
 
 section {
-  max-width: 600px;
+  //max-width: 600px;
 }
 
 iframe body {
@@ -161,7 +162,9 @@ iframe body {
 }
 
 .wrapper {
-  max-width: 700px;
+  max-width: 600px;
+  margin: inherit;
+  padding: 0;
 }
 
 div.LI-profile-badge {
@@ -182,7 +185,7 @@ p.nav {
 ul.nav {
   margin-top: 100px;
   padding: 0;
-  width: 80%;
+  //width: 80%;
 }
 
 .nav-entry {
@@ -253,9 +256,15 @@ img.nav:hover {
 }
 
 .red-panel {
+  width: 100%;
   background: radial-gradient(rgba(200,0,0,0.4) 0%, rgba(200,0,0,0.2) 40%, rgba(150,0,0,0.0) 100%);
+  //padding: 20px;
 }
 
-.contact {
+.contact, .footer {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }
