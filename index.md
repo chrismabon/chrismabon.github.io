@@ -13,7 +13,7 @@ description: "A Twitch stream dedicated to the online game Project: Gorgon"
 
 <br>
 
-<p class="contact">Email: <a href="mailto:sj@sjslive.stream">sj@sjslive.stream</a></p>
+<p class="contact"><a href="mailto:sj@sjslive.stream">Send an Email</a></p>
 
 <br>
 
